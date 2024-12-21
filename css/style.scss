@@ -1,0 +1,1757 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+// All Colors
+$color-primary: #e57a44;
+$color-secondary: #998fc7;
+$color-tertiary: #28262c;
+$color-background: #f4f7f5;
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    color: $color-background;
+}
+
+// All breakpoints
+$breakpoint-mobile: 344px;
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 1000px;
+$breakpoint-desktop: 1200px;
+
+// Breakpoint mixin
+@mixin breakpoint($point) {
+    @if $point == small {
+        @media (min-width: $breakpoint-mobile) {
+            @content;
+        }
+    } @else if $point == medium {
+        @media (min-width: $breakpoint-tablet) {
+            @content;
+        }
+    } @else if $point == large {
+        @media (min-width: $breakpoint-laptop) {
+            @content;
+        }
+    } @else if $point == xlarge {
+        @media (min-width: $breakpoint-desktop) {
+            @content;
+        }
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+#section1,
+#section2,
+#section3,
+#section4,
+section5{
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav img {
+    height: 50px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+nav ul li {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.8rem 0.8rem;
+    color: $color-tertiary;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: $color-secondary;
+    color: $color-background;
+}
+
+.box {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    color: $color-background;
+    padding: 2rem 2rem;
+}
+
+.black {
+    background: $color-tertiary;
+}
+
+.white {
+    background: $color-background;
+}
+
+.purple {
+    background: $color-secondary;
+}
+
+// First Section Content
+#section1 {
+    height: 100%;
+    width: 100%;
+}
+
+#section1 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+
+#section1 .circle-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 2rem;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+#section1 .circle {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    background: $color-background;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+#section1 .circle img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#section1 .text-content {
+    max-width: 56.5rem;
+}
+
+#section1 .title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: $color-background;
+}
+
+#section1 .body-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    color: $color-background;
+}
+
+
+
+
+// Second Section Content
+
+
+#section2 {
+    height: 100%;
+}
+
+.section2-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: $color-background;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+
+.historical-turnout {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1200px; 
+        height: auto; 
+        border-radius: 10px;
+}
+
+.turnout-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.graph-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 2rem;
+    gap: 3rem;
+}
+
+
+.graph-container img {
+    margin: 1rem;
+    width: 45%;
+}
+
+
+.graph-fade-in {
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.graph-fade-in.fade-in {
+    opacity: 1;
+}
+
+@keyframes barGrow {
+    from {
+        transform: scaleY(0);
+    }
+    to {
+        transform: scaleY(1);
+    }
+}
+
+.animated-svg {
+    width: 45%; /* Consistent with `.graph-container img` style */
+    margin: 1rem;
+    display: block;
+    max-width: 100%; /* Prevent SVG from exceeding its container */
+    height: auto; /* Maintain aspect ratio */
+    transition: opacity 2.5s ease-in-out; /* Smooth fade-in */
+    transform-origin: bottom; /* For bar growth animation */
+}
+
+
+.percentage-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.percentage-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.percentage {
+    font-family: "Raleway", sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    max-width: 250px; 
+    text-align: left;
+}
+
+.quote {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.quote-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem; 
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: $color-tertiary;
+}
+
+.quote-author {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem; 
+    color: $color-tertiary;
+}
+
+// Third Section Content
+
+
+#section3 {
+    height: 100%;
+}
+
+.section3-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: $color-primary;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+
+.topic-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.accordion {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.accordion-button {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    background-color: $color-tertiary;
+    color: $color-background;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none;
+     border-radius: 20px;
+    -webkit-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover,
+.accordion-button.active {
+    background-color: darken($color-primary, 10%);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    padding: 0 1rem;
+}
+
+.accordion-content img {
+    width: 50%;
+    border-radius: 20px;
+    height: auto;
+    margin: 1rem 0;
+}
+
+.accordion-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    width: 50%;
+    color: $color-tertiary;
+    text-align: left;
+}
+
+
+.accordion-content.expanded {
+    max-height: 500px; 
+    overflow-y: auto; 
+}
+
+
+.banner-ads {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; 
+    gap: 1rem; 
+    margin-top: 2rem;
+}
+
+.banner-ad {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 300px;
+    flex: 1 1 300px; 
+    max-width: 45%; 
+}
+
+.banner-ad img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+
+// Fourth Section Content
+
+.section-title-mobile {
+        display: none;
+    }
+
+.section4-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: $color-background;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#dynamic-text {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid $color-tertiary;
+    -webkit-animation: typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+    animation: typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+    vertical-align: middle;
+    margin-top: -0.8rem;
+}
+
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: $color-tertiary;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: $color-tertiary;
+    }
+}
+
+#section4 {
+    background: $color-secondary;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 6rem 2rem;
+    height: 100%;
+}
+
+#section4 .testimonial-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+#section4 .testimonial {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#section4 .test-circle {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background: $color-background;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0 auto 3rem;
+}
+
+#section4 .test-circle img {
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#section4 .testimonial-title {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: $color-background;
+}
+
+#section4 .testimonial-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+    color: $color-background;
+}
+
+
+// Fifth Section Content
+
+#section5 {
+    padding: 2rem;
+    height: 100%;
+    background-color: $color-tertiary;
+}
+
+.form-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: $color-background;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* General Form Styling */
+#register-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: $color-background;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    font-weight: bold;
+    color: $color-tertiary;
+}
+
+.form-group input,
+.form-group select {
+    font-family: "Open Sans", sans-serif;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 2px solid $color-tertiary;
+    border-radius: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: $color-primary;
+    box-shadow: 0 0 4px $color-tertiary;
+    outline: none;
+}
+
+/* Row Styling */
+.form-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1rem;
+}
+
+#street-address-group {
+    grid-column: 1 / -1;
+}
+
+fieldset legend {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: $color-tertiary;
+}
+
+/* Radio Buttons */
+.radio-container {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.radio-group label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: $color-background;
+    border: 2px solid $color-primary;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.radio-group input[type="radio"]:checked + label {
+    background-color: $color-primary;
+    color: #fff;
+    border-color: $color-primary;
+}
+
+/* Checkbox Buttons */
+.checkbox-container {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.checkbox-group label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f5f5f5;
+    border: 2px solid $color-secondary;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.checkbox-group input[type="checkbox"]:checked + label {
+    background-color: $color-secondary;
+    color: #fff;
+    border-color: $color-secondary;
+}
+
+/* Submit Button */
+.submit-link {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $color-background;
+    background-color: $color-tertiary;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-link:hover {
+    background-color: $color-primary;
+}
+
+// Footer Content
+
+
+footer {
+    background-color: $color-tertiary;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-left img {
+    max-width: 300px;
+    height: auto;
+}
+
+.footer-middle form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-middle input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.footer-middle button {
+    background-color: $color-primary;
+    color: $color-background;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.footer-right .social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.footer-right .social-icons li {
+    margin: 0 0.5rem;
+}
+
+.footer-right .social-icons li a {
+    color: $color-background;
+    font-size: 2rem;
+    -webkit-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.footer-right .social-icons li a:hover {
+    color: $color-secondary;
+}
+
+
+
+
+
+
+
+
+// Media Querries
+
+@media (min-width: $breakpoint-mobile) {
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .menu-link {
+        font-family: "Raleway", sans-serif;
+        color: $color-background;
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        text-decoration: underline;
+        font-size: 2.5rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .navbar {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+    }
+    
+    
+    nav img {
+        width: 70%;
+        height: auto;
+    }
+
+    .navbar.hidden {
+        display: none;
+    }
+
+    .navbar.visible {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+     nav ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; 
+        -webkit-box-align: center; 
+        -ms-flex-align: center; 
+        align-items: center; 
+        max-height: auto;
+    }
+    
+    nav ul li {
+        margin-bottom: 1rem; 
+    }
+    
+    nav ul li a {
+        font-size: 1.5rem; 
+        color: $color-background;
+    }
+    
+    .close-link {
+        position: absolute;
+        right: 12px;
+        text-decoration: none;
+        font-size: 3.5rem;
+        cursor: pointer;
+        color: $color-background;
+    }
+    
+    
+   #section1 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+}
+
+#section1 .circle-container {
+    margin-bottom: 0rem;
+}
+
+#section1 .circle {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background: $color-background;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#section1 .circle img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#section1 .text-content {
+    max-width: 100%;
+}
+
+#section1 .title {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: $color-background;
+}
+
+#section1 .body-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    color: $color-background;
+}
+  
+    
+    
+    #section4 .testimonial-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+
+#section4 .test-circle {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: $color-background;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0 auto 3rem;
+}
+    
+    .section4-title,
+    #dynamic-text {
+        display: none;
+    }
+    
+    
+    .section-title-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    color: $color-background;
+    overflow: hidden;
+    white-space: wrap;
+    }
+    
+    
+    .section2-title {
+        font-size: 2.5rem;
+    }
+    
+    .graph-container img{
+        width: 100%;
+    }
+    
+    .percentage-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+    
+    .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    padding: 0 1rem;
+}
+
+.accordion-content img {
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    margin: 1rem 0;
+}
+
+.accordion-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    color: $color-tertiary;
+    text-align: left;
+    line-height: 1.5;
+}
+     
+    #register-form {
+        overflow-x: auto;
+    }
+    
+    .footer-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .banner-ads {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; 
+        gap: .5rem;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; 
+    }
+
+    .banner-ad {
+        max-width: 90%; 
+    }
+    
+    .historical-turnout {
+        max-width: 100%;
+    }
+    
+    .banner-ads {
+        gap: 1rem; 
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .checkbox-container {
+        grid-template-columns: 1fr;
+    }
+
+    .radio-container {
+        flex-direction: column;
+    }
+    
+    .form-title {
+        font-size: 2.3rem;
+    }
+    
+    .animated-svg {
+        width: 100%; 
+        margin: 1.5rem auto; 
+    }
+    
+}
+
+
+
+@media (min-width: $breakpoint-tablet) {
+    
+    .menu-link {
+        font-size: 2rem;
+        left: 30px;
+        top: 30px;
+    }
+    
+    .close-link {
+        font-size: 5rem;
+        right: 20px;
+    }
+    
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+    
+    .historical-turnout {
+        max-width: 100%;
+    }
+    
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .checkbox-container {
+        grid-template-columns: 1fr;
+    }
+
+    .radio-container {
+        flex-direction: column;
+    }
+    
+    .animated-svg {
+    width: 45%; 
+    margin: 1rem;
+    display: block;
+    max-width: 100%; 
+    height: auto; 
+    transition: opacity 2.5s ease-in-out; 
+    transform-origin: bottom; 
+}
+    
+}
+
+
+@media (min-width: $breakpoint-laptop) {
+    
+    .menu-link {
+        font-size: 3rem;
+        top: 30px;
+        left: 30px;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }   
+    
+    .menu-link:hover {
+        background-color: $color-secondary;
+    }
+    
+ nav ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    
+    
+nav ul li {
+        margin-top: 4rem; 
+        white-space: nowrap;
+    }
+    
+nav ul li a {
+        font-size: 2rem; 
+        color: $color-background;
+    }
+    
+.close-link {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        text-decoration: none;
+        font-size: 5rem;
+        cursor: pointer;
+        color: $color-background;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    
+    
+ .close-link:hover {
+        color: $color-primary;
+    }
+    
+    
+#section1 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+#section1 .circle-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 6rem;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+#section1 .circle {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    background: $color-background;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+#section1 .circle img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#section1 .text-content {
+    max-width: 56.5rem;
+}
+
+#section1 .title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: $color-background;
+}
+
+#section1 .body-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    color: $color-background;
+}
+    
+    
+   #section2 {
+    height: 100%;
+}
+
+.section2-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: $color-background;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+
+.turnout-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.graph-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+
+.graph-container img {
+    margin: 1rem;
+    width: 45%;
+} 
+    
+    .section4-title,
+    #dynamic-text {
+        display: inline-block;
+    }
+    
+    nav ul li a{
+        font-size: 1.5rem;
+    }
+    
+    .section-title-mobile {
+        display: none;
+    }
+    
+    .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+ }
+    
+     .footer-content {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+    
+    .historical-turnout {
+        max-width: 80%;
+        margin-left: 3rem;
+    }
+    
+    .animated-svg {
+    width: 45%; /* Consistent with `.graph-container img` style */
+    margin: 1rem;
+    display: block;
+    max-width: 100%; /* Prevent SVG from exceeding its container */
+    height: auto; /* Maintain aspect ratio */
+    transition: opacity 2.5s ease-in-out; /* Smooth fade-in */
+    transform-origin: bottom; /* For bar growth animation */
+}
+    
+}
+
+
+@media (min-width: $breakpoint-desktop) {
+    
+    nav ul {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row; 
+    }
+    
+    #section1 {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#section1 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+#section1 .circle-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 6rem;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+#section1 .circle {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    background: $color-background;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+#section1 .circle img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#section1 .text-content {
+    max-width: 56.5rem;
+}
+
+#section1 .title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: $color-background;
+}
+
+#section1 .body-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    color: $color-background;
+}
+    
+    
+#section2 {
+    height: 100%;
+}
+
+.section2-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: $color-background;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+
+.turnout-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.graph-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+
+.graph-container img {
+    margin: 1rem;
+    width: 45%;
+} 
+    
+.percentage-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+    
+    
+.section4-title,
+#dynamic-text {
+        display: inline-block;
+    }
+    
+nav ul li a{
+        font-size: 1.5rem;
+    }
+    
+.section-title-mobile {
+        display: none;
+    }
+    
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    padding: 0 1rem;
+}
+
+.accordion-content img {
+    width: 60%;
+    border-radius: 20px;
+    height: auto;
+    margin: 1rem 0;
+}
+
+.accordion-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    width: 60%;
+    color: $color-tertiary;
+    text-align: left;
+}
+    
+    .banner-ads {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; 
+    gap: 2rem; 
+    margin-top: 2rem;
+}
+
+.banner-ad {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 300px;
+    flex: 1 1 300px; 
+    max-width: 45%; 
+}
+
+.banner-ad img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+    
+    .historical-turnout {
+        max-width: 80%;
+        margin-left: 10rem;
+    }
+    
+    .form-title {
+        font-size: 3rem;
+    }
+    
+    .animated-svg {
+    width: 45%; /* Consistent with `.graph-container img` style */
+    margin: 1rem;
+    display: block;
+    max-width: 100%; /* Prevent SVG from exceeding its container */
+    height: auto; /* Maintain aspect ratio */
+    transition: opacity 2.5s ease-in-out; /* Smooth fade-in */
+    transform-origin: bottom; /* For bar growth animation */
+}
+    
+}
