@@ -1,0 +1,1556 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* line 9, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 14, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+html {
+  font-size: 100%; }
+
+/* line 18, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+body {
+  margin: 0;
+  color: #f4f7f5; }
+
+/* line 50, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+html {
+  scroll-behavior: smooth;
+  font-size: 100%; }
+
+/* line 55, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 60, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+body {
+  margin: 0; }
+
+/* line 65, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section1,
+#section2,
+#section3,
+#section4,
+section5 {
+  width: 100%;
+  margin: 0; }
+
+/* line 74, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+nav {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000; }
+
+/* line 83, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+nav img {
+  height: 50px;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+/* line 90, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+/* line 100, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+nav ul li {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center; }
+
+/* line 107, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+nav ul li a {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.8rem 0.8rem;
+  color: #28262c;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: block; }
+
+/* line 120, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+nav ul li a:hover {
+  background: #998fc7;
+  color: #f4f7f5; }
+
+/* line 125, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.box {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  color: #f4f7f5;
+  padding: 2rem 2rem; }
+
+/* line 133, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.black {
+  background: #28262c; }
+
+/* line 137, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.white {
+  background: #f4f7f5; }
+
+/* line 141, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.purple {
+  background: #998fc7; }
+
+/* line 146, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section1 {
+  height: 100%;
+  width: 100%; }
+
+/* line 151, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section1 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  margin-top: 2rem; }
+
+/* line 166, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section1 .circle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 2rem;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+
+/* line 176, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section1 .circle {
+  width: 35rem;
+  height: 35rem;
+  border-radius: 50%;
+  background: #f4f7f5;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -o-object-fit: contain;
+  object-fit: contain; }
+
+/* line 195, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section1 .circle img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+/* line 202, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section1 .text-content {
+  max-width: 56.5rem; }
+
+/* line 206, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section1 .title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  color: #f4f7f5; }
+
+/* line 213, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section1 .body-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #f4f7f5; }
+
+/* line 225, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section2 {
+  height: 100%; }
+
+/* line 229, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.section2-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  color: #f4f7f5;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  white-space: nowrap; }
+
+/* line 246, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.historical-turnout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  border-radius: 10px; }
+
+/* line 260, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.turnout-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+/* line 273, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.graph-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 2rem;
+  gap: 3rem; }
+
+/* line 286, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.graph-container img {
+  margin: 1rem;
+  width: 45%; }
+
+/* line 292, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.graph-fade-in {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out; }
+
+/* line 298, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.graph-fade-in.fade-in {
+  opacity: 1; }
+
+@keyframes barGrow {
+  from {
+    transform: scaleY(0); }
+  to {
+    transform: scaleY(1); } }
+
+/* line 311, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.animated-svg {
+  width: 45%;
+  /* Consistent with `.graph-container img` style */
+  margin: 1rem;
+  display: block;
+  max-width: 100%;
+  /* Prevent SVG from exceeding its container */
+  height: auto;
+  /* Maintain aspect ratio */
+  transition: opacity 2.5s ease-in-out;
+  /* Smooth fade-in */
+  transform-origin: bottom;
+  /* For bar growth animation */ }
+
+/* line 322, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.percentage-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  margin-left: 2rem; }
+
+/* line 341, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.percentage-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem; }
+
+/* line 351, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.percentage {
+  font-family: "Raleway", sans-serif;
+  font-size: 5rem;
+  font-weight: bold; }
+
+/* line 357, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  max-width: 250px;
+  text-align: left; }
+
+/* line 365, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.quote {
+  margin-top: 4rem;
+  margin-left: 2rem;
+  text-align: left; }
+
+/* line 371, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.quote-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #28262c; }
+
+/* line 380, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.quote-author {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #28262c; }
+
+/* line 389, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section3 {
+  height: 100%; }
+
+/* line 393, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.section3-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  color: #e57a44;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  white-space: nowrap; }
+
+/* line 410, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.topic-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+/* line 424, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.accordion {
+  width: 100%;
+  margin: 1rem 0; }
+
+/* line 429, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.accordion-button {
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  background-color: #28262c;
+  color: #f4f7f5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 20px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; }
+
+/* line 455, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.accordion-button:hover,
+.accordion-button.active {
+  background-color: #d85c1e; }
+
+/* line 460, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  padding: 0 1rem; }
+
+/* line 478, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.accordion-content img {
+  width: 50%;
+  border-radius: 20px;
+  height: auto;
+  margin: 1rem 0; }
+
+/* line 485, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.accordion-content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  width: 50%;
+  color: #28262c;
+  text-align: left; }
+
+/* line 494, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.accordion-content.expanded {
+  max-height: 500px;
+  overflow-y: auto; }
+
+/* line 500, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.banner-ads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem; }
+
+/* line 513, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.banner-ad {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 300px;
+  flex: 1 1 300px;
+  max-width: 45%; }
+
+/* line 520, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.banner-ad img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; }
+
+/* line 529, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.section-title-mobile {
+  display: none; }
+
+/* line 533, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.section4-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  color: #f4f7f5;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap; }
+
+/* line 544, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#dynamic-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid #28262c;
+  -webkit-animation: typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+  animation: typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+  vertical-align: middle;
+  margin-top: -0.8rem; }
+
+@-webkit-keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+@-webkit-keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent; }
+  50% {
+    border-color: #28262c; } }
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent; }
+  50% {
+    border-color: #28262c; } }
+
+/* line 595, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section4 {
+  background: #998fc7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 6rem 2rem;
+  height: 100%; }
+
+/* line 612, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section4 .testimonial-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  max-width: 100%; }
+
+/* line 623, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section4 .testimonial {
+  -ms-flex-preferred-size: 45%;
+  flex-basis: 45%;
+  margin-bottom: 3rem;
+  text-align: center; }
+
+/* line 630, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section4 .test-circle {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  background: #f4f7f5;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 0 auto 3rem; }
+
+/* line 648, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section4 .test-circle img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+/* line 655, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section4 .testimonial-title {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+  color: #f4f7f5; }
+
+/* line 664, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section4 .testimonial-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+  color: #f4f7f5; }
+
+/* line 675, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#section5 {
+  padding: 2rem;
+  height: 100%;
+  background-color: #28262c; }
+
+/* line 681, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.form-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f4f7f5;
+  text-align: center;
+  margin-bottom: 3rem; }
+
+/* General Form Styling */
+/* line 691, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#register-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f4f7f5;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+
+/* Form Group */
+/* line 704, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; }
+
+/* line 710, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.form-group label {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #28262c; }
+
+/* line 718, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.form-group input,
+.form-group select {
+  font-family: "Open Sans", sans-serif;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 2px solid #28262c;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; }
+
+/* line 728, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #e57a44;
+  box-shadow: 0 0 4px #28262c;
+  outline: none; }
+
+/* Row Styling */
+/* line 736, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.form-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1rem; }
+
+/* line 742, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+#street-address-group {
+  grid-column: 1 / -1; }
+
+/* line 746, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+fieldset legend {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #28262c; }
+
+/* Radio Buttons */
+/* line 754, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.radio-container {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; }
+
+/* line 761, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.radio-group label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #f4f7f5;
+  border: 2px solid #e57a44;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem; }
+
+/* line 773, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.radio-group input[type="radio"]:checked + label {
+  background-color: #e57a44;
+  color: #fff;
+  border-color: #e57a44; }
+
+/* Checkbox Buttons */
+/* line 780, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.checkbox-container {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem; }
+
+/* line 787, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.checkbox-group label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #f5f5f5;
+  border: 2px solid #998fc7;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem; }
+
+/* line 799, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.checkbox-group input[type="checkbox"]:checked + label {
+  background-color: #998fc7;
+  color: #fff;
+  border-color: #998fc7; }
+
+/* Submit Button */
+/* line 806, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.submit-link {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f4f7f5;
+  background-color: #28262c;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; }
+
+/* line 823, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.submit-link:hover {
+  background-color: #e57a44; }
+
+/* line 830, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+footer {
+  background-color: #28262c;
+  padding: 2rem 0; }
+
+/* line 835, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto; }
+
+/* line 849, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.footer-left img {
+  max-width: 300px;
+  height: auto; }
+
+/* line 854, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.footer-middle form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+/* line 863, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.footer-middle input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px 0 0 4px; }
+
+/* line 871, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.footer-middle button {
+  background-color: #e57a44;
+  color: #f4f7f5;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0; }
+
+/* line 881, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.footer-right .social-icons {
+  list-style-type: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+/* line 892, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.footer-right .social-icons li {
+  margin: 0 0.5rem; }
+
+/* line 896, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.footer-right .social-icons li a {
+  color: #f4f7f5;
+  font-size: 2rem;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease; }
+
+/* line 903, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+.footer-right .social-icons li a:hover {
+  color: #998fc7; }
+
+@media (min-width: 344px) {
+  /* line 918, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  body {
+    overflow-x: hidden; }
+  /* line 922, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .menu-link {
+    font-family: "Raleway", sans-serif;
+    color: #f4f7f5;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer; }
+  /* line 935, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .navbar {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000; }
+  /* line 954, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  nav img {
+    width: 70%;
+    height: auto; }
+  /* line 959, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .navbar.hidden {
+    display: none; }
+  /* line 963, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .navbar.visible {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  /* line 969, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-height: auto; }
+  /* line 980, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  nav ul li {
+    margin-bottom: 1rem; }
+  /* line 984, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  nav ul li a {
+    font-size: 1.5rem;
+    color: #f4f7f5; }
+  /* line 989, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .close-link {
+    position: absolute;
+    right: 12px;
+    text-decoration: none;
+    font-size: 3.5rem;
+    cursor: pointer;
+    color: #f4f7f5; }
+  /* line 999, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left; }
+  /* line 1013, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .circle-container {
+    margin-bottom: 0rem; }
+  /* line 1017, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .circle {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background: #f4f7f5;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  /* line 1034, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .circle img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover; }
+  /* line 1041, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .text-content {
+    max-width: 100%; }
+  /* line 1045, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .title {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #f4f7f5; }
+  /* line 1052, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .body-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #f4f7f5; }
+  /* line 1060, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section4 .testimonial-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    max-width: 100%; }
+  /* line 1072, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section4 .test-circle {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: #f4f7f5;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0 auto 3rem; }
+  /* line 1090, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .section4-title,
+  #dynamic-text {
+    display: none; }
+  /* line 1096, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .section-title-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    color: #f4f7f5;
+    overflow: hidden;
+    white-space: wrap; }
+  /* line 1111, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .section2-title {
+    font-size: 2.5rem; }
+  /* line 1115, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .graph-container img {
+    width: 100%; }
+  /* line 1119, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .percentage-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  /* line 1132, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    padding: 0 1rem; }
+  /* line 1150, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .accordion-content img {
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    margin: 1rem 0; }
+  /* line 1157, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .accordion-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    color: #28262c;
+    text-align: left;
+    line-height: 1.5; }
+  /* line 1166, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #register-form {
+    overflow-x: auto; }
+  /* line 1170, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 3rem; }
+  /* line 1178, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .banner-ads {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: .5rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  /* line 1189, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .banner-ad {
+    max-width: 90%; }
+  /* line 1193, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .historical-turnout {
+    max-width: 100%; }
+  /* line 1197, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .banner-ads {
+    gap: 1rem; }
+  /* line 1201, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .form-row {
+    grid-template-columns: 1fr; }
+  /* line 1205, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .checkbox-container {
+    grid-template-columns: 1fr; }
+  /* line 1209, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .radio-container {
+    flex-direction: column; }
+  /* line 1213, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .form-title {
+    font-size: 2.3rem; }
+  /* line 1217, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .animated-svg {
+    width: 100%;
+    margin: 1.5rem auto; } }
+
+@media (min-width: 768px) {
+  /* line 1228, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .menu-link {
+    font-size: 2rem;
+    left: 30px;
+    top: 30px; }
+  /* line 1234, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .close-link {
+    font-size: 5rem;
+    right: 20px; }
+  /* line 1240, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  body {
+    overflow-x: hidden; }
+  /* line 1244, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease; }
+  /* line 1251, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .historical-turnout {
+    max-width: 100%; }
+  /* line 1256, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .form-row {
+    grid-template-columns: 1fr; }
+  /* line 1260, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .checkbox-container {
+    grid-template-columns: 1fr; }
+  /* line 1264, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .radio-container {
+    flex-direction: column; }
+  /* line 1268, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .animated-svg {
+    width: 45%;
+    margin: 1rem;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: opacity 2.5s ease-in-out;
+    transform-origin: bottom; } }
+
+@media (min-width: 1000px) {
+  /* line 1283, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .menu-link {
+    font-size: 3rem;
+    top: 30px;
+    left: 30px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
+  /* line 1291, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .menu-link:hover {
+    background-color: #998fc7; }
+  /* line 1295, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  /* line 1306, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  nav ul li {
+    margin-top: 4rem;
+    white-space: nowrap; }
+  /* line 1311, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  nav ul li a {
+    font-size: 2rem;
+    color: #f4f7f5; }
+  /* line 1316, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .close-link {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    text-decoration: none;
+    font-size: 5rem;
+    cursor: pointer;
+    color: #f4f7f5;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
+  /* line 1329, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .close-link:hover {
+    color: #e57a44; }
+  /* line 1334, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5rem; }
+  /* line 1351, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .circle-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 6rem;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+  /* line 1361, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .circle {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    background: #f4f7f5;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -o-object-fit: contain;
+    object-fit: contain; }
+  /* line 1380, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .circle img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover; }
+  /* line 1387, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .text-content {
+    max-width: 56.5rem; }
+  /* line 1391, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: #f4f7f5; }
+  /* line 1398, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .body-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #f4f7f5; }
+  /* line 1405, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section2 {
+    height: 100%; }
+  /* line 1409, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .section2-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: #f4f7f5;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap; }
+  /* line 1426, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .turnout-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  /* line 1439, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .graph-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 2rem; }
+  /* line 1451, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .graph-container img {
+    margin: 1rem;
+    width: 45%; }
+  /* line 1456, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .section4-title,
+  #dynamic-text {
+    display: inline-block; }
+  /* line 1461, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  nav ul li a {
+    font-size: 1.5rem; }
+  /* line 1465, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .section-title-mobile {
+    display: none; }
+  /* line 1469, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease; }
+  /* line 1476, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .footer-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  /* line 1485, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .historical-turnout {
+    max-width: 80%;
+    margin-left: 3rem; }
+  /* line 1490, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .animated-svg {
+    width: 45%;
+    /* Consistent with `.graph-container img` style */
+    margin: 1rem;
+    display: block;
+    max-width: 100%;
+    /* Prevent SVG from exceeding its container */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: opacity 2.5s ease-in-out;
+    /* Smooth fade-in */
+    transform-origin: bottom;
+    /* For bar growth animation */ } }
+
+@media (min-width: 1200px) {
+  /* line 1505, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  nav ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  /* line 1512, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  /* line 1525, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5rem; }
+  /* line 1542, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .circle-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 6rem;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+  /* line 1552, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .circle {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    background: #f4f7f5;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -o-object-fit: contain;
+    object-fit: contain; }
+  /* line 1571, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .circle img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover; }
+  /* line 1578, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .text-content {
+    max-width: 56.5rem; }
+  /* line 1582, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: #f4f7f5; }
+  /* line 1589, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section1 .body-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #f4f7f5; }
+  /* line 1596, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  #section2 {
+    height: 100%; }
+  /* line 1600, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .section2-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: #f4f7f5;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap; }
+  /* line 1617, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .turnout-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  /* line 1630, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .graph-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 2rem; }
+  /* line 1642, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .graph-container img {
+    margin: 1rem;
+    width: 45%; }
+  /* line 1647, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .percentage-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  /* line 1662, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .section4-title,
+  #dynamic-text {
+    display: inline-block; }
+  /* line 1667, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  nav ul li a {
+    font-size: 1.5rem; }
+  /* line 1671, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .section-title-mobile {
+    display: none; }
+  /* line 1675, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    padding: 0 1rem; }
+  /* line 1693, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .accordion-content img {
+    width: 60%;
+    border-radius: 20px;
+    height: auto;
+    margin: 1rem 0; }
+  /* line 1700, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .accordion-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    width: 60%;
+    color: #28262c;
+    text-align: left; }
+  /* line 1708, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .banner-ads {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem; }
+  /* line 1725, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .banner-ad {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 300px;
+    flex: 1 1 300px;
+    max-width: 45%; }
+  /* line 1732, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .banner-ad img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; }
+  /* line 1738, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .historical-turnout {
+    max-width: 80%;
+    margin-left: 10rem; }
+  /* line 1743, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .form-title {
+    font-size: 3rem; }
+  /* line 1747, /Users/joshg./Desktop/GrossJ_P2/css/style.scss */
+  .animated-svg {
+    width: 45%;
+    /* Consistent with `.graph-container img` style */
+    margin: 1rem;
+    display: block;
+    max-width: 100%;
+    /* Prevent SVG from exceeding its container */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: opacity 2.5s ease-in-out;
+    /* Smooth fade-in */
+    transform-origin: bottom;
+    /* For bar growth animation */ } }
+
+/*# sourceMappingURL=style.css.map */
